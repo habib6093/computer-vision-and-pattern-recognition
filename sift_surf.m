@@ -6,7 +6,7 @@
 I1 = imread('cameraman.tif');
 I2 = rgb2gray(imread('show.jpg')); %imresize(imrotate(I1,-20),1.2);
 I1 = I2;
-I2 = imresize(imrotate(I2,90),10);
+I2 = imresize(imrotate(I2,90),.20);
 
 %%
 % Find the SURF features.
